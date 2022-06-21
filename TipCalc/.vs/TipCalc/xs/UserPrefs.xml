@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{61343446-D796-4161-8185-0A19C114245D}|Default">
+  <MonoDevelop.Ide.ItemProperties.TipCalc.Droid PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TipCalc" expanded="True">
+            <Node name="TipCalc.Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="TipViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="TipCalc.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

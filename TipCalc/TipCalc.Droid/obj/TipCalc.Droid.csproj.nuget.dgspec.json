@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cristico/Downloads/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj": {}
+  },
+  "projects": {
+    "/Users/cristico/Downloads/TipCalc/TipCalc.Core/TipCalc.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cristico/Downloads/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
+        "projectName": "TipCalc.Core",
+        "projectPath": "/Users/cristico/Downloads/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
+        "packagesPath": "/Users/cristico/.nuget/packages/",
+        "outputPath": "/Users/cristico/Downloads/TipCalc/TipCalc.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cristico/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cristico/Downloads/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cristico/Downloads/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj",
+        "projectName": "TipCalc.Droid",
+        "projectPath": "/Users/cristico/Downloads/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj",
+        "packagesPath": "/Users/cristico/.nuget/packages/",
+        "outputPath": "/Users/cristico/Downloads/TipCalc/TipCalc.Droid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/cristico/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/cristico/Downloads/TipCalc/TipCalc.Core/TipCalc.Core.csproj": {
+                "projectPath": "/Users/cristico/Downloads/TipCalc/TipCalc.Core/TipCalc.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Xamarin": {
+              "target": "Package",
+              "version": "[0.2.0.64, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
